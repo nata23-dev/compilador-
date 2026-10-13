@@ -22,13 +22,3 @@ py main.py
 
 También puedes abrir la carpeta clonada en VS Code y ejecutar `py main.py` desde su terminal.
 
-## Estructura
-
-```text
-main.py                    Punto de entrada de la interfaz
-genesis/                   Interfaz, reglas del lenguaje, analizador y AFD
-ejemplos/                  Programas GENESIS de ejemplo (.gen)
-datos/Tabla de símbolos   Archivo binario de la tabla de símbolos
-```
-
-Cada registro de la Tabla de símbolos ocupa **300 bytes**. La consulta individual se realiza con `seek()` según el número de registro. El archivo binario se publica con su contenido actual; al iniciar la aplicación, la tabla se reconstruye con las palabras reservadas y, al compilar, con los símbolos del programa analizado.

@@ -1,4 +1,4 @@
-# GENESIS — Lexical Analysis Studio
+# GENESIS
 
 GENESIS es un lenguaje de programación académico orientado a describir ecosistemas, especies y evolución artificial. Este proyecto implementa su **análisis léxico** para la materia Lenguajes y Autómatas I. Actualmente no ejecuta programas ni simulaciones biológicas.
 
